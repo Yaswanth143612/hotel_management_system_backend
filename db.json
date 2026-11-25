@@ -1,0 +1,173 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "GrandStay Admin",
+      "email": "yashu@gmail.com",
+      "password": "yashu143",
+      "role": "admin"
+    },
+    {
+      "name": "yaswanth srimanthula",
+      "email": "yaswanthsrimanthula@gmail.com",
+      "password": "Amma1234@",
+      "role": "customer",
+      "id": "k9Li34e"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "101",
+      "name": "Classic Single Room",
+      "type": "Single",
+      "price": 1800,
+      "capacity": 1,
+      "beds": "1 Single Bed",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=900",
+      "description": "A calm and comfortable room for solo travellers.",
+      "amenities": [
+        "Wi-Fi",
+        "AC",
+        "TV",
+        "Work desk"
+      ],
+      "available": true
+    },
+    {
+      "id": "102",
+      "name": "Deluxe Double Room",
+      "type": "Double",
+      "price": 2800,
+      "capacity": 2,
+      "beds": "1 Queen Bed",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=900",
+      "description": "A spacious room with a relaxing seating area.",
+      "amenities": [
+        "Wi-Fi",
+        "AC",
+        "TV",
+        "Breakfast"
+      ],
+      "available": true
+    },
+    {
+      "id": "103",
+      "name": "Premium Twin Room",
+      "type": "Twin",
+      "price": 3200,
+      "capacity": 2,
+      "beds": "2 Single Beds",
+      "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=900",
+      "description": "A bright twin room for friends or colleagues.",
+      "amenities": [
+        "Wi-Fi",
+        "AC",
+        "TV",
+        "Mini fridge"
+      ],
+      "available": true
+    },
+    {
+      "id": "104",
+      "name": "Family Suite",
+      "type": "Suite",
+      "price": 5200,
+      "capacity": 4,
+      "beds": "1 King + 2 Single Beds",
+      "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=900",
+      "description": "A large suite designed for a comfortable family stay.",
+      "amenities": [
+        "Wi-Fi",
+        "AC",
+        "TV",
+        "Breakfast",
+        "Living area"
+      ],
+      "available": true
+    },
+    {
+      "id": "105",
+      "name": "Executive King Room",
+      "type": "Deluxe",
+      "price": 4500,
+      "capacity": 2,
+      "beds": "1 King Bed",
+      "image": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=900",
+      "description": "An elegant king room with premium comfort.",
+      "amenities": [
+        "Wi-Fi",
+        "AC",
+        "TV",
+        "Room service"
+      ],
+      "available": true
+    },
+    {
+      "id": "106",
+      "name": "Garden View Suite",
+      "type": "Suite",
+      "price": 6000,
+      "capacity": 3,
+      "beds": "1 King Bed",
+      "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=900",
+      "description": "A peaceful suite with a garden-facing view.",
+      "amenities": [
+        "Wi-Fi",
+        "AC",
+        "TV",
+        "Balcony",
+        "Breakfast"
+      ],
+      "available": true
+    }
+  ],
+  "bookings": [
+    {
+      "userId": "k9Li34e",
+      "customerName": "yaswanth srimanthula",
+      "customerEmail": "yaswanthsrimanthula@gmail.com",
+      "roomId": "101",
+      "roomName": "Classic Single Room",
+      "checkIn": "2026-11-24",
+      "checkOut": "2026-11-26",
+      "guests": 2,
+      "nights": 2,
+      "totalAmount": 3600,
+      "status": "Cancelled",
+      "createdAt": "2026-11-24T08:28:24.913Z",
+      "id": 1
+    },
+    {
+      "userId": "k9Li34e",
+      "customerName": "yaswanth srimanthula",
+      "customerEmail": "yaswanthsrimanthula@gmail.com",
+      "roomId": "104",
+      "roomName": "Family Suite",
+      "checkIn": "2026-11-24",
+      "checkOut": "2026-11-26",
+      "guests": 2,
+      "nights": 2,
+      "totalAmount": 10400,
+      "status": "Cancelled",
+      "createdAt": "2026-11-24T08:30:41.548Z",
+      "id": 2
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "name": "Airport Pickup",
+      "price": 900
+    },
+    {
+      "id": "2",
+      "name": "Breakfast",
+      "price": 350
+    },
+    {
+      "id": "3",
+      "name": "Laundry",
+      "price": 250
+    }
+  ]
+}
